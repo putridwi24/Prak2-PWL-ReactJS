@@ -13,16 +13,17 @@ const intro = () => {
                     <div className="i-title-wrapper">
                         <div className="i-title-item">Teknik Informatika</div>
                         <div className="i-title-item">119140068</div>
-                        <div className="i-title-item">Praktikum PWL</div>
+                        <div className="i-title-item">Institut Teknologi Sumatera</div>
                         <div className="i-title-item">Portofolio</div>
-                        <div className="i-title-item">React JS</div>
+                        <div className="i-title-item">UI UX Designer</div>
                     </div>
                 </div>
                 <p className="i-desc">
-                    <br></br>
-                This is my first portfolio. <br></br>
-                Front-end developer
+                    <br></br> <br></br>
+                <h3>Front-end developer</h3> <br></br>
+                Welcome to my Portofolio <br></br>
                 </p>
+                
             </div>
             <svg
                 width = "75"

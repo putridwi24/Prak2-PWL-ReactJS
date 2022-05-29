@@ -1,20 +1,21 @@
 import "./productList.css"
 import Product from "../product/Product"
+import {products} from "../../data"
 
 const productList = () => {
   return (
     <div className="pl">
         <div className="pl-texts">
-            <h1 className="pl-title">This is my Experiences </h1>
+            <h1 className="pl-title">This is my Skill </h1>
             <p className="pl-desc">
-              no good project, still empty :") 
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatum molestias, nisi quam natus tempore maiores quidem voluptates labore doloribus dicta sunt, laborum assumenda id, cumque vero nostrum! Quia, qui?
+            There are several programming languages that I am aware of <br></br>
+            Although not fully mastered by me :)
             </p>
         </div>
         <div className="pl-list">
-            <Product/>
-            <Product/>
-            <Product/>
+          {products.map((item) => (
+                        <Product key={item.id} img={item.img} link={item.link} />
+          )) }
         </div>
     </div>
   );
